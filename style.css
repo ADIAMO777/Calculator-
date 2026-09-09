@@ -1,0 +1,72 @@
+.calculator {
+    width: 250px;
+    height: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid black ;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    background-color: DodgerBlue;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+#display {
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    text-align: right;
+    border: 1px solid red;
+    background-color: white;
+    font-display: flex;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+.calculator button {
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+    font: 18px Arial, sans-serif;
+    font-weight: light;
+    border: 1px solid purple;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    padding: 10px;
+    /*background-color: #B98340;
+    */:;
+}
+.calculator button:hover {
+    background-color: #A67C00;
+    /* background-color: #f0f0f0; */
+}
+
+.calculator-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.calculator-title {
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+span {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    text-transform: uppercase;
+    color: black;
+    padding: 5px 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
