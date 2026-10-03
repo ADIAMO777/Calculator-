@@ -6,7 +6,7 @@
     border: 1px solid black ;
     border-radius: 10px;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
-    background-color: DodgerBlue;
+    background-color: silver;
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
@@ -68,5 +68,7 @@ span {
     text-transform: uppercase;
     color: black;
     padding: 5px 10px;
+    border: 1px solid red;
+    border-radius: 5px;
     font-family: "Lucida Console", "Courier New", monospace;
 }
